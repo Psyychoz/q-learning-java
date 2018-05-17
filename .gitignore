@@ -42,3 +42,4 @@ fabric.properties
 /q-learning-java.iws
 /q-learning-java.ipr
 /q-learning-java.iml
+/target/
