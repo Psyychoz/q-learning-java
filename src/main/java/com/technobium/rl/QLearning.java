@@ -14,8 +14,11 @@ public class QLearning {
     private final int mazeWidth = 3;
     private final int mazeHeight = 3;
     private final int statesCount = mazeHeight * mazeWidth;
-
-    private final int reward = 100;
+    
+    
+    //different reward values
+    //private final int reward = 100;
+    private final int reward = 200;
     private final int penalty = -10;
 
     private char[][] maze;  // Maze read from file
@@ -39,8 +42,8 @@ public class QLearning {
         Q = new double[statesCount][statesCount];
         maze = new char[mazeHeight][mazeWidth];
 
-
         try (FileInputStream fis = new FileInputStream(file)) {
+
 
             int i = 0;
             int j = 0;
