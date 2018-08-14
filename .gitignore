@@ -43,3 +43,4 @@ fabric.properties
 /q-learning-java.ipr
 /q-learning-java.iml
 /target/
+/.metadata/
