@@ -28,7 +28,7 @@ public class QLearning {
 
 
     public static void main(String args[]) {
-        QLearning2 ql = new QLearning2();
+        QLearning ql = new QLearning();
 
         ql.init();
         ql.calculateQ();
